@@ -1,0 +1,11 @@
+sample,true_label,pred_prob,pred_label,lime_top,ig_top,shap_top
+0,0,0.803,1,plas,plas,plas
+1,0,0.0,0,insu,plas,plas
+2,0,0.024,0,age,age,age
+3,1,0.011,0,mass,mass,mass
+4,0,0.012,0,plas,plas,plas
+5,0,0.606,1,mass,age,plas
+6,1,0.017,0,plas,plas,plas
+7,1,0.999,1,plas,plas,plas
+8,0,0.003,0,age,age,plas
+9,0,0.88,1,insu,plas,plas
