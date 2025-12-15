@@ -70,7 +70,7 @@ Struktur proyek disusun secara modular sebagai berikut:
 ```
 .
 ├── figures/              # Visualisasi (XAI plots, confusion matrix, dll)
-├── models/               # Model terlatih (checkpoint)
+├── models/               # Model terlatih
 ├── outputs/              # Output CSV (ringkasan XAI)
 ├── train/                # Modul utama pipeline
 │   ├── data.py           # Load & preprocessing dataset
