@@ -32,8 +32,14 @@ def main(n_samples):
     df = run_xai_analysis(
         model, Xte, Xtr, yte, features, probs, threshold, n_samples
     )
+    print()
     print("=== SUMMARY ===")
     print(df)
+    print()
+
+    print("Top label indicates the feature with the highest absolute attribution value for each XAI method per sample.")
+    print("Visualization results saved to 'figures/' directory.")
+    print("Bar visualizations pointing to the right (positive values) indicate an increased risk of diabetes, while bars pointing to the left (negative values) indicate a decreased risk of diabetes, with the length of each bar representing the magnitude of the feature’s influence on the model’s prediction.")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()

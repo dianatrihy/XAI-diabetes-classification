@@ -147,6 +147,7 @@ Pipeline akan secara otomatis:
 * `shap_<i>.png`
 
 Setiap gambar menjelaskan kontribusi fitur terhadap prediksi model.
+Visualisasi bar yang mengarah ke kanan (bernilai positif) menunjukkan peningkatan risiko diabetes, sedangkan bar ke kiri (bernilai negatif) menunjukkan penurunan risiko diabetes, dengan panjang bar merepresentasikan besar kecilnya pengaruh fitur terhadap prediksi model.
 
 ---
 
